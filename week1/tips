@@ -1,0 +1,5 @@
+编码的快捷键：快速补充并跳到下一行：
+MACOS  command + shift + return
+windows  ctrl + shift + return
+
+另外，如在小/中/花括号中编辑，当光标移至右括号时，敲对应括号即可跳出括号。
