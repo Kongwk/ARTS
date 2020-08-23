@@ -1,0 +1,4 @@
+分享陈浩的《tcp的那些事儿》https://coolshell.cn/articles/11564.html（上）和 https://coolshell.cn/articles/11609.html（下）。
+
+对MTU（Maximum Transmission Unit）有了新的认识，MTU有1500字节，除去ip和port40字节，剩下1460字节即MSS（max segment size）。
+带宽可以理解为单位时间网络传输的包，如果包的大小等于MSS，则完全用满带宽，会感觉此时网络最快，达到上限。如果每个包很小，则浪费大量带宽，且会感觉网络传输很慢。
